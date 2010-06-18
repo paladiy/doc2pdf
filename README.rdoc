@@ -1,2 +1,2 @@
-h1. doc2pdf
-p. Is is simple doc to pdf daemon that use jadconverter as converting tool.
+== doc2pdf
+Is is simple doc to pdf daemon that use jadconverter as converting tool.
