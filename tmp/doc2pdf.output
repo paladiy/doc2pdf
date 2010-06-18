@@ -1,0 +1,100 @@
+/Users/paladiy/development/ruby/doc2pdf/app/files/2010-06-18/26/hw.docx
+/Users/paladiy/development/ruby/doc2pdf/app/files/2010-06-18/26/hw.pdf
+18.06.2010 15:40:06 org.artofsolving.jodconverter.office.ProcessPoolOfficeManager <init>
+INFO: ProcessManager implementation is MacProcessManager
+18.06.2010 15:40:06 org.artofsolving.jodconverter.office.OfficeProcess start
+INFO: starting process with acceptString 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1' and profileDir '/var/folders/Ac/AceaM1P+FpCWKKZGmQrr0E+++TI/-Tmp-/.jodconverter_socket_host-127.0.0.1_port-2002'
+18.06.2010 15:40:06 org.artofsolving.jodconverter.office.OfficeProcess start
+INFO: started process; pid = 2364
+18.06.2010 15:40:08 org.artofsolving.jodconverter.office.OfficeConnection connect
+INFO: connected: 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1'
+18.06.2010 15:40:08 org.artofsolving.jodconverter.office.OfficeConnection$1 disposing
+INFO: disconnected: 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1'
+18.06.2010 15:40:08 org.artofsolving.jodconverter.office.PooledOfficeManager$1 disconnected
+WARNING: connection lost unexpectedly; attempting restart
+18.06.2010 15:40:08 org.artofsolving.jodconverter.office.ProcessPoolOfficeManager stop
+INFO: stopping
+18.06.2010 15:40:08 org.artofsolving.jodconverter.office.ManagedOfficeProcess doEnsureProcessExited
+INFO: process exited with code 80
+18.06.2010 15:40:08 org.artofsolving.jodconverter.office.OfficeProcess start
+INFO: starting process with acceptString 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1' and profileDir '/var/folders/Ac/AceaM1P+FpCWKKZGmQrr0E+++TI/-Tmp-/.jodconverter_socket_host-127.0.0.1_port-2002'
+18.06.2010 15:40:08 org.artofsolving.jodconverter.office.OfficeProcess start
+INFO: started process; pid = 2369
+18.06.2010 15:40:10 org.artofsolving.jodconverter.office.OfficeConnection connect
+INFO: connected: 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1'
+18.06.2010 15:40:10 org.artofsolving.jodconverter.office.OfficeConnection$1 disposing
+INFO: disconnected: 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1'
+18.06.2010 15:40:10 org.artofsolving.jodconverter.office.ManagedOfficeProcess doEnsureProcessExited
+INFO: process exited with code 0
+18.06.2010 15:40:10 org.artofsolving.jodconverter.office.ProcessPoolOfficeManager stop
+INFO: stopped
+Exception in thread "main" org.artofsolving.jodconverter.office.OfficeException: task failed
+	at org.artofsolving.jodconverter.office.PooledOfficeManager.execute(PooledOfficeManager.java:97)
+	at org.artofsolving.jodconverter.office.ProcessPoolOfficeManager.execute(ProcessPoolOfficeManager.java:75)
+	at org.artofsolving.jodconverter.OfficeDocumentConverter.convert(OfficeDocumentConverter.java:75)
+	at org.artofsolving.jodconverter.OfficeDocumentConverter.convert(OfficeDocumentConverter.java:66)
+	at org.artofsolving.jodconverter.cli.Convert.main(Convert.java:104)
+Caused by: java.util.concurrent.CancellationException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:230)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:91)
+	at org.artofsolving.jodconverter.office.PooledOfficeManager.execute(PooledOfficeManager.java:86)
+	... 4 more
+/Users/paladiy/development/ruby/doc2pdf/app/files/2010-06-18/26/hw.docx
+/Users/paladiy/development/ruby/doc2pdf/app/files/2010-06-18/26/hw.pdf
+18.06.2010 15:40:15 org.artofsolving.jodconverter.office.ProcessPoolOfficeManager <init>
+INFO: ProcessManager implementation is MacProcessManager
+18.06.2010 15:40:15 org.artofsolving.jodconverter.office.OfficeProcess start
+INFO: starting process with acceptString 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1' and profileDir '/var/folders/Ac/AceaM1P+FpCWKKZGmQrr0E+++TI/-Tmp-/.jodconverter_socket_host-127.0.0.1_port-2002'
+18.06.2010 15:40:15 org.artofsolving.jodconverter.office.OfficeProcess start
+INFO: started process; pid = 2373
+18.06.2010 15:40:17 org.artofsolving.jodconverter.office.OfficeConnection connect
+INFO: connected: 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1'
+18.06.2010 15:40:17 org.artofsolving.jodconverter.office.OfficeConnection$1 disposing
+INFO: disconnected: 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1'
+18.06.2010 15:40:17 org.artofsolving.jodconverter.office.PooledOfficeManager$1 disconnected
+WARNING: connection lost unexpectedly; attempting restart
+18.06.2010 15:40:17 org.artofsolving.jodconverter.office.ProcessPoolOfficeManager stop
+INFO: stopping
+18.06.2010 15:40:17 org.artofsolving.jodconverter.office.ManagedOfficeProcess doEnsureProcessExited
+INFO: process exited with code 80
+18.06.2010 15:40:17 org.artofsolving.jodconverter.office.OfficeProcess start
+INFO: starting process with acceptString 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1' and profileDir '/var/folders/Ac/AceaM1P+FpCWKKZGmQrr0E+++TI/-Tmp-/.jodconverter_socket_host-127.0.0.1_port-2002'
+18.06.2010 15:40:17 org.artofsolving.jodconverter.office.OfficeProcess start
+INFO: started process; pid = 2376
+18.06.2010 15:40:19 org.artofsolving.jodconverter.office.OfficeConnection connect
+INFO: connected: 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1'
+18.06.2010 15:40:19 org.artofsolving.jodconverter.office.OfficeConnection$1 disposing
+INFO: disconnected: 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1'
+18.06.2010 15:40:19 org.artofsolving.jodconverter.office.ManagedOfficeProcess doEnsureProcessExited
+INFO: process exited with code 0
+18.06.2010 15:40:19 org.artofsolving.jodconverter.office.ProcessPoolOfficeManager stop
+INFO: stopped
+Exception in thread "main" org.artofsolving.jodconverter.office.OfficeException: task failed
+	at org.artofsolving.jodconverter.office.PooledOfficeManager.execute(PooledOfficeManager.java:97)
+	at org.artofsolving.jodconverter.office.ProcessPoolOfficeManager.execute(ProcessPoolOfficeManager.java:75)
+	at org.artofsolving.jodconverter.OfficeDocumentConverter.convert(OfficeDocumentConverter.java:75)
+	at org.artofsolving.jodconverter.OfficeDocumentConverter.convert(OfficeDocumentConverter.java:66)
+	at org.artofsolving.jodconverter.cli.Convert.main(Convert.java:104)
+Caused by: java.util.concurrent.CancellationException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:230)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:91)
+	at org.artofsolving.jodconverter.office.PooledOfficeManager.execute(PooledOfficeManager.java:86)
+	... 4 more
+/Users/paladiy/development/ruby/doc2pdf/app/files/2010-06-18/26/hw.docx
+/Users/paladiy/development/ruby/doc2pdf/app/files/2010-06-18/26/hw.pdf
+18.06.2010 15:40:24 org.artofsolving.jodconverter.office.ProcessPoolOfficeManager <init>
+INFO: ProcessManager implementation is MacProcessManager
+18.06.2010 15:40:24 org.artofsolving.jodconverter.office.OfficeProcess start
+INFO: starting process with acceptString 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1' and profileDir '/var/folders/Ac/AceaM1P+FpCWKKZGmQrr0E+++TI/-Tmp-/.jodconverter_socket_host-127.0.0.1_port-2002'
+18.06.2010 15:40:24 org.artofsolving.jodconverter.office.OfficeProcess start
+INFO: started process; pid = 2380
+18.06.2010 15:40:26 org.artofsolving.jodconverter.office.OfficeConnection connect
+INFO: connected: 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1'
+18.06.2010 15:40:27 org.artofsolving.jodconverter.office.ProcessPoolOfficeManager stop
+INFO: stopping
+18.06.2010 15:40:27 org.artofsolving.jodconverter.office.OfficeConnection$1 disposing
+INFO: disconnected: 'socket,host=127.0.0.1,port=2002,tcpNoDelay=1'
+18.06.2010 15:40:28 org.artofsolving.jodconverter.office.ManagedOfficeProcess doEnsureProcessExited
+INFO: process exited with code 0
+18.06.2010 15:40:28 org.artofsolving.jodconverter.office.ProcessPoolOfficeManager stop
+INFO: stopped
