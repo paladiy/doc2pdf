@@ -2,7 +2,7 @@ module Paths
   PROJECT_PATH = "/Users/paladiy/development/ruby/doc2pdf"
   FORMATS = %W( doc docx odt sxw rtf wpd txt html ods sxc odp sxi ppt odg)
   SOURCE_PATH =  "#{PROJECT_PATH}/stack"
-  ORIGIN_PATH = "#{PROJECT_PATH}/app/files"
+  ORIGIN_PATH = "#{PROJECT_PATH}/files"
   JODCONVERTER = "java -jar #{PROJECT_PATH}/jodconverter/lib/jodconverter-core-3.0-beta-3.jar"
   def origin_path(file)
     "#{ORIGIN_PATH}/#{Time.now.strftime("%Y-%m-%d")}/#{file}"

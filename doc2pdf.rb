@@ -13,14 +13,20 @@ daemon_options = {
 include Paths
 Daemons.run_proc('doc2pdf', daemon_options) do
   loop do
-    files = Dir.glob("#{SOURCE_PATH}/*")    
-    files.each do |file|             
-      file = file.scan(/.+\/(\d+)/).first.first
-      system "#{JODCONVERTER} #{origin_file_path file}  #{pdf_file_path file}"
-      if File.exist?("#{pdf_file_path file}")
-        FileUtils.rm "#{SOURCE_PATH}/#{file}"
+      files = Dir.glob("#{SOURCE_PATH}/*")    
+      files.each do |file|             
+        begin 
+          file = file.scan(/.+\/(\d+)/).first.first
+          system "#{JODCONVERTER} #{origin_file_path file}  #{pdf_file_path file}"
+          if File.exist?("#{pdf_file_path file}")
+            puts "#{pdf_file_path file}"
+            FileUtils.rm "#{SOURCE_PATH}/#{file}"
+          end
+        rescue => e
+          FileUtils.rm "#{SOURCE_PATH}/#{file}"
+          puts e.message
+        end
       end
-    end
-    sleep 5
+    sleep 0.5
   end
 end
